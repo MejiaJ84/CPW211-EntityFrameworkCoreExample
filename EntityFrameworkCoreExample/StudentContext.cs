@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace EntityFrameworkCoreExample
 {
-    internal class StudentContext
+    // EF core getting started 
+    // https://docs.microsoft.com/en-us/ef/core/get-started/overview/install
+    internal class StudentContext : DbContext
     {
 
     }
